@@ -11,6 +11,10 @@
 		E2A08E442A9A7479009510BB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A08E432A9A7479009510BB /* ContentView.swift */; };
 		E2A08E462A9A747A009510BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2A08E452A9A747A009510BB /* Assets.xcassets */; };
 		E2A08E492A9A747A009510BB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2A08E482A9A747A009510BB /* Preview Assets.xcassets */; };
+		E2A08E502A9A74D9009510BB /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A08E4F2A9A74D9009510BB /* Model.swift */; };
+		E2A08E522A9A7614009510BB /* ViewModelMuvies.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A08E512A9A7614009510BB /* ViewModelMuvies.swift */; };
+		E2A08E572A9A7858009510BB /* Carousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A08E562A9A7858009510BB /* Carousel.swift */; };
+		E2A08E592A9A7A74009510BB /* MoviesDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A08E582A9A7A74009510BB /* MoviesDetailsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		E2A08E432A9A7479009510BB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E2A08E452A9A747A009510BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E2A08E482A9A747A009510BB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E2A08E4F2A9A74D9009510BB /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		E2A08E512A9A7614009510BB /* ViewModelMuvies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelMuvies.swift; sourceTree = "<group>"; };
+		E2A08E562A9A7858009510BB /* Carousel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Carousel.swift; sourceTree = "<group>"; };
+		E2A08E582A9A7A74009510BB /* MoviesDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesDetailsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +59,10 @@
 		E2A08E402A9A7479009510BB /* carousel */ = {
 			isa = PBXGroup;
 			children = (
+				E2A08E552A9A782E009510BB /* Views */,
+				E2A08E542A9A781C009510BB /* model */,
+				E2A08E532A9A780B009510BB /* ViewModel */,
 				E2A08E412A9A7479009510BB /* carouselApp.swift */,
-				E2A08E432A9A7479009510BB /* ContentView.swift */,
 				E2A08E452A9A747A009510BB /* Assets.xcassets */,
 				E2A08E472A9A747A009510BB /* Preview Content */,
 			);
@@ -65,6 +75,32 @@
 				E2A08E482A9A747A009510BB /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E2A08E532A9A780B009510BB /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				E2A08E512A9A7614009510BB /* ViewModelMuvies.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		E2A08E542A9A781C009510BB /* model */ = {
+			isa = PBXGroup;
+			children = (
+				E2A08E4F2A9A74D9009510BB /* Model.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		E2A08E552A9A782E009510BB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E2A08E432A9A7479009510BB /* ContentView.swift */,
+				E2A08E562A9A7858009510BB /* Carousel.swift */,
+				E2A08E582A9A7A74009510BB /* MoviesDetailsView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +173,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2A08E592A9A7A74009510BB /* MoviesDetailsView.swift in Sources */,
+				E2A08E502A9A74D9009510BB /* Model.swift in Sources */,
 				E2A08E442A9A7479009510BB /* ContentView.swift in Sources */,
+				E2A08E522A9A7614009510BB /* ViewModelMuvies.swift in Sources */,
+				E2A08E572A9A7858009510BB /* Carousel.swift in Sources */,
 				E2A08E422A9A7479009510BB /* carouselApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
